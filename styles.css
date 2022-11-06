@@ -66,11 +66,11 @@ html {
 }
 
 .home-title-coma {
-  color: #D5D5D5;
+  color: #d5d5d5;
 }
 
 .my-name {
-  color: #5B38E2;
+  color: #5b38e2;
 }
 
 .home-text-description {
@@ -87,7 +87,7 @@ html {
 }
 
 .home-get-in-touch {
-  background-color: #5B38E2;
+  background-color: #5b38e2;
   color: white;
   text-decoration: none;
   padding: 20px;
@@ -119,7 +119,6 @@ html {
 
 .showcase-section {
   width: 100%;
-  margin-top: 30px;
   margin: 0 auto;
 }
 
@@ -200,7 +199,6 @@ html {
     display: none;
   }
   .mobile-navbar {
-    display: block;
     position: fixed;
     width: 100vw;
     height: 100vh;
