@@ -1,0 +1,224 @@
+/* XL devices (default) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+}
+
+.title-text {
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.mobile-navbar {
+  display: none;
+}
+
+.nav-links {
+  color: black;
+  text-decoration: none;
+  margin: 0 25px;
+}
+
+.home-content {
+  padding: 120px 100px 0 100px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.home-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-text {
+  margin-top: 50px;
+}
+
+.home-text-title {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 65px;
+  line-height: 85px;
+}
+
+.home-title-coma {
+  color: #D5D5D5;
+}
+
+.my-name {
+  color: #5B38E2;
+}
+
+.home-text-description {
+  font-size: 20px;
+  margin-top: 25px;
+  color: #575757;
+  line-height: 28px;
+}
+
+.home-links {
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+}
+
+.home-get-in-touch {
+  background-color: #5B38E2;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.my-photo {
+  border-radius: 50%;
+}
+
+.about-me-section {
+  width: 100%;
+  background-color: #202020;
+  margin-top: 30px;
+}
+
+.about-me-title {
+  font-family: "Darker Grotesque", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 30px;
+}
+
+.about-me-text {
+  color: white;
+  text-align: center;
+  padding: 30px 300px;
+}
+
+.showcase-section {
+  width: 100%;
+  margin-top: 30px;
+  margin: 0 auto;
+}
+
+.showcase-title {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 30px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto 15px auto;
+  max-width: 1600px;
+}
+
+.project-container {
+  width: 350px;
+  margin: 15px;
+  padding: 15px;
+  border: 1px solid #575757;
+  border-radius: 5%;
+}
+
+.project-title {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 2%;
+}
+
+.website-link {
+  color: white;
+  background-color: #202020;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 15%;
+  float: left;
+}
+
+.github-link {
+  color: white;
+  background-color: #202020;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 15%;
+  float: right;
+}
+
+/* Large devices */
+@media only screen and (max-width: 1199.98px) {
+  .my-photo {
+    display: none;
+  }
+  .about-me-text {
+    padding: 30px 150px;
+  }
+}
+/* Medium devices */
+@media only screen and (max-width: 991.98px) {
+  .about-me-text {
+    padding: 30px 100px;
+  }
+}
+/* Small devices */
+@media only screen and (max-width: 767.98px) {
+  .hamburger-menu {
+    display: block;
+    width: 30px;
+    cursor: pointer;
+  }
+  .nav-links {
+    display: none;
+  }
+  .mobile-navbar {
+    display: block;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 70px;
+    left: 0;
+    background-color: #b1b1b1;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+  }
+  .mobile-nav-links {
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    margin: 15px 0;
+    border-bottom: 1px solid black;
+  }
+  .about-me-text {
+    padding: 30px 50px;
+  }
+}/*# sourceMappingURL=styles.css.map */
