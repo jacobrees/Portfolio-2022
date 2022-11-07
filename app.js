@@ -15,3 +15,18 @@ mobileNavLinks.forEach((navLink) => {
     mobileNav.style.visibility = 'hidden';
   });
 });
+
+const navLinks = document.querySelectorAll('.nav-link');
+
+navLinks.forEach((navLink) => {
+  navLink.addEventListener('click', (e) => {
+    e.preventDefault();
+    const id = navLink.textContent;
+    const section = document.getElementById(id);
+    const position = section.offsetTop - 70;
+    window.scrollTo({
+      top: position,
+      behavior: 'smooth',
+    });
+  });
+});

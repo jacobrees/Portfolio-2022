@@ -29,6 +29,10 @@ html {
   font-size: 40px;
 }
 
+.nav-links-container {
+  display: flex;
+}
+
 .hamburger-menu {
   display: none;
 }
@@ -41,6 +45,10 @@ html {
   color: black;
   text-decoration: none;
   margin: 0 25px;
+}
+
+.nav-link {
+  cursor: pointer;
 }
 
 .home-content {
