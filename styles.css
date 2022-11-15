@@ -131,6 +131,8 @@ html {
   color: white;
   text-align: center;
   padding: 30px 300px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .showcase-section {
