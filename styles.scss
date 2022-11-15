@@ -212,6 +212,10 @@ html {
 
 /* Small devices */
 @media only screen and (max-width: 767.98px) {
+  .navbar {
+    padding: 0 50px;
+  }
+
   .hamburger-menu {
     display: block;
     width: 30px;
