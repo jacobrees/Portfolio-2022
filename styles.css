@@ -142,9 +142,10 @@ html {
 
 .showcase-title {
   font-family: "Darker Grotesque", sans-serif;
-  font-size: 35px;
+  font-size: 40px;
   padding-top: 20px;
   text-align: center;
+  font-weight: bold;
 }
 
 .projects-container {
@@ -152,25 +153,75 @@ html {
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 0 auto 15px auto;
-  max-width: 1485px;
 }
 
 .project-container {
-  width: 350px;
-  margin: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 15px;
-  border: 1px solid #575757;
   border-radius: 5%;
 }
 
 .project-title {
   text-align: center;
-  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.project-content-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  width: 100%;
+}
+
+.project-content-container-invert {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  width: 100%;
+  flex-direction: row-reverse;
 }
 
 .project-img {
   width: 100%;
   border-radius: 2%;
+}
+
+.project-description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 15px;
+}
+
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.project-technology {
+  color: white;
+  background-color: #575757;
+  border: #1f1f1f 1px solid;
+  margin: 3px;
+}
+
+.project-description {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  color: #575757;
+  line-height: 28px;
+}
+
+.project-links {
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .website-link {
@@ -179,7 +230,6 @@ html {
   text-decoration: none;
   padding: 5px;
   border-radius: 15%;
-  float: left;
 }
 
 .github-link {
@@ -188,7 +238,6 @@ html {
   text-decoration: none;
   padding: 5px;
   border-radius: 15%;
-  float: right;
 }
 
 /* Large devices */
@@ -198,6 +247,18 @@ html {
   }
   .about-me-text {
     padding: 30px 150px;
+  }
+  .project-content-container {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    width: 80%;
+  }
+  .project-content-container-invert {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    width: 80%;
   }
 }
 /* Medium devices */
@@ -242,5 +303,17 @@ html {
   }
   .about-me-text {
     padding: 30px 50px;
+  }
+  .project-content-container {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    width: 90%;
+  }
+  .project-content-container-invert {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    width: 90%;
   }
 }/*# sourceMappingURL=styles.css.map */
