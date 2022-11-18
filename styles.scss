@@ -153,14 +153,12 @@ html {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 0 auto 15px auto;
+  margin: 0 auto;
 }
 
 .project-container {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 15px;
-  border-radius: 5%;
 }
 
 .project-title {
@@ -251,17 +249,21 @@ html {
     padding: 30px 150px;
   }
 
+  .project-description-container {
+    margin: 0;
+  }
+
   .project-content-container {
     display: flex;
     flex-direction: column;
-    margin: 15px auto;
+    margin: 0 auto;
     width: 80%;
   }
 
   .project-content-container-invert {
     display: flex;
     flex-direction: column;
-    margin: 15px auto;
+    margin: 0 auto;
     width: 80%;
   }
 }
@@ -320,14 +322,14 @@ html {
   .project-content-container {
     display: flex;
     flex-direction: column;
-    margin: 15px 0;
+    margin: 0 auto;
     width: 90%;
   }
 
   .project-content-container-invert {
     display: flex;
     flex-direction: column;
-    margin: 15px 0;
+    margin: 0 auto;
     width: 90%;
   }
 }
