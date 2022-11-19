@@ -1,3 +1,6 @@
+// eslint-disable-next-line
+AOS.init();
+window.scrollTo(0, 0);
 const menu = document.querySelector('.hamburger-menu');
 const mobileNav = document.querySelector('.mobile-navbar');
 const mobileNavLinks = document.querySelectorAll('.mobile-nav-links');
