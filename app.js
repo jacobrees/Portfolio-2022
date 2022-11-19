@@ -1,5 +1,4 @@
 /* eslint-disable */
-gsap.from('.navbar', {duration: 1, y: '-100%', ease: 'bounce.out'});
 gsap.from('.home-text', {duration: 1, y: -50, opacity: 0, delay: 0.5, ease: 'power4.out', stagger: 0.3});
 gsap.from('.my-photo', {duration: 1, y: 50, opacity: 0, delay: 0.5, ease: 'power4.out', stagger: 0.3});
 gsap.from('.about-me-section', {duration: 1, y: 50, opacity: 0, delay: 0.5, ease: 'power4.out', stagger: 0.3});
