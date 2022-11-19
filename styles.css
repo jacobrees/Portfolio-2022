@@ -1,3 +1,43 @@
+@-webkit-keyframes fade-in-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 /* XL devices (default) */
 * {
   margin: 0;
@@ -65,6 +105,8 @@ html {
 
 .home-text {
   margin-top: 50px;
+  -webkit-animation: fade-in-top 0.6s both;
+          animation: fade-in-top 0.6s both;
 }
 
 .home-text-title {
@@ -111,12 +153,16 @@ html {
 
 .my-photo {
   border-radius: 50%;
+  -webkit-animation: fade-in-bottom 0.6s both;
+          animation: fade-in-bottom 0.6s both;
 }
 
 .about-me-section {
   width: 100%;
   background-color: #202020;
   margin-top: 30px;
+  -webkit-animation: fade-in-bottom 0.6s both;
+          animation: fade-in-bottom 0.6s both;
 }
 
 .about-me-title {
@@ -138,6 +184,8 @@ html {
 .showcase-section {
   width: 100%;
   margin: 0 auto;
+  -webkit-animation: fade-in-bottom 0.6s both;
+          animation: fade-in-bottom 0.6s both;
 }
 
 .showcase-title {
