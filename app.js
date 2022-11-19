@@ -1,4 +1,3 @@
-
 AOS.init(); // eslint-disable-line
 window.scrollTo(0, 0);
 const menu = document.querySelector('.hamburger-menu');
