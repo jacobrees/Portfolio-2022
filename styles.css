@@ -185,6 +185,7 @@ html {
 .project-img {
   width: 100%;
   border-radius: 2%;
+  border: #919191 solid 1px;
 }
 
 .project-description-container {
