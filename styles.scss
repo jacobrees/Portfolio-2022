@@ -356,6 +356,7 @@ html {
     display: flex;
     flex-direction: column;
     visibility: hidden;
+    z-index: 999;
   }
 
   .mobile-nav-links {
