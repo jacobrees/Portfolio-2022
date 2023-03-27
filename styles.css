@@ -55,7 +55,7 @@ html {
   position: fixed;
   top: 0;
   z-index: 999;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .navbar-container {
@@ -122,6 +122,9 @@ html {
   margin-top: 50px;
   -webkit-animation: fade-in-top 0.6s both;
           animation: fade-in-top 0.6s both;
+  background-color: rgba(255, 255, 255, 0.6901960784);
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .home-text-title {
