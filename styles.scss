@@ -27,7 +27,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 html {
@@ -39,7 +39,7 @@ html {
   position: fixed;
   top: 0;
   z-index: 999;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .navbar-container {
@@ -53,7 +53,7 @@ html {
 }
 
 .title-text {
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   font-weight: bold;
   font-size: 40px;
 }
@@ -80,6 +80,19 @@ html {
   cursor: pointer;
 }
 
+#particles-js {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.home-background { 
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding-bottom: 30px;
+}
+
 .home-content {
   padding: 120px 100px 0 100px;
   max-width: 1400px;
@@ -90,15 +103,12 @@ html {
   width: 100%;
   display: flex;
   justify-content: space-between;
-}
-
-.home-text {
   margin-top: 50px;
   animation: fade-in-top 0.6s both;
 }
 
 .home-text-title {
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   font-size: 65px;
   line-height: 85px;
 }
@@ -147,12 +157,11 @@ html {
 .about-me-section {
   width: 100%;
   background-color: #202020;
-  margin-top: 30px;
   animation: fade-in-bottom 0.6s both;
 }
 
 .about-me-title {
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   color: white;
   text-align: center;
   font-size: 45px;
@@ -171,10 +180,11 @@ html {
   width: 100%;
   margin: 0 auto;
   animation: fade-in-bottom 0.6s both;
+  background-color: #ffffffb0;
 }
 
 .showcase-title {
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   font-size: 40px;
   padding-top: 20px;
   text-align: center;
@@ -192,11 +202,15 @@ html {
   margin: 0 auto;
 }
 
+.project-container:last-of-type{
+  padding-bottom: 10px;
+}
+
 .project-title {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
 }
 
 .project-content-container {
@@ -242,7 +256,7 @@ html {
 }
 
 .project-description {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   color: #575757;
   line-height: 28px;
@@ -274,7 +288,6 @@ html {
 .get-in-touch-section {
   width: 100%;
   background-color: #202020;
-  margin-top: 30px;
   animation: fade-in-bottom 0.6s both;
   display: flex;
   flex-direction: column;
@@ -282,7 +295,7 @@ html {
 }
 
 .get-in-touch-title {
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: "Darker Grotesque", sans-serif;
   color: white;
   text-align: center;
   font-size: 45px;

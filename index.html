@@ -1,157 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@700&family=Inter:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@700&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>JR Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="navbar">
-        <div class="navbar-container">
-            <div class="title">
-                <h2 class="title-text">JR</h2>
-            </div>
-            <div class="nav-icons">
-                <div></div>
-                <img class="hamburger-menu" src="assets/hamburger.svg" alt="menu">
-                <div class="nav-links-container">
-                    <p class="nav-links nav-link">home</p>
-                    <p class="nav-links nav-link">about</p>
-                    <p class="nav-links nav-link">showcase</p>
-                </div>
-            </div>
+      <div class="navbar-container">
+        <div class="title">
+          <h2 class="title-text">JR</h2>
         </div>
+        <div class="nav-icons">
+          <div></div>
+          <img class="hamburger-menu" src="assets/hamburger.svg" alt="menu" />
+          <div class="nav-links-container">
+            <p class="nav-links nav-link">home</p>
+            <p class="nav-links nav-link">about</p>
+            <p class="nav-links nav-link">showcase</p>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="mobile-navbar">
-        <p class="mobile-nav-links nav-link">home</p>
-        <p class="mobile-nav-links nav-link">about</p>
-        <p class="mobile-nav-links nav-link">showcase</p>
+      <p class="mobile-nav-links nav-link">home</p>
+      <p class="mobile-nav-links nav-link">about</p>
+      <p class="mobile-nav-links nav-link">showcase</p>
     </div>
-    <div id="home" class="home-content">
+    <div id="particles-js"></div>
+    <div class="home-background">
+      <div id="home" class="home-content">
         <div class="home-section">
-            <div class="home-text">
-                <h2 class="home-text-title">Hi<span class="home-title-coma">,</span></h2>
-                <h2 class="home-text-title">I am <span class="my-name">Jacob Rees</span></h2>
-                <p class="home-text-description">Hi, I'm Jacob Rees, a Full Stack Web Developer and a Freelance Software
-                    Engineer from the United Kingdom. I make software come true with elegant interfaces.</p>
-                <div class="home-links">
-                    <a class="home-get-in-touch" target="_blank" href="https://www.linkedin.com/in/jacob-rees/">Get In
-                        Touch</a>
-                    <a class="home-github" target="_blank" href="https://github.com/jacobrees">GitHub</a>
-                </div>
+          <div class="home-text">
+            <h2 class="home-text-title">
+              Hi<span class="home-title-coma">,</span>
+            </h2>
+            <h2 class="home-text-title">
+              I am <span class="my-name">Jacob Rees</span>
+            </h2>
+            <p class="home-text-description">
+              Hi, I'm Jacob Rees, a Full Stack Web Developer and a Freelance
+              Software Engineer from the United Kingdom. I make software come
+              true with elegant interfaces.
+            </p>
+            <div class="home-links">
+              <a
+                class="home-get-in-touch"
+                target="_blank"
+                href="https://www.linkedin.com/in/jacob-rees/"
+                >Get In Touch</a
+              >
+              <a
+                class="home-github"
+                target="_blank"
+                href="https://github.com/jacobrees"
+                >GitHub</a
+              >
             </div>
-            <div class="my-photo-container">
-                <img class="my-photo" src="assets/60970452.jpg" alt="picture of me">
-            </div>
+          </div>
+          <div class="my-photo-container">
+            <img
+              class="my-photo"
+              src="assets/60970452.jpg"
+              alt="picture of me"
+            />
+          </div>
         </div>
-
+      </div>
     </div>
+
     <div id="about" class="about-me-section">
-        <h2 class="about-me-title">About Me</h2>
-        <p class="about-me-text">Talented Web Developer with 3+ years of experience. I'm currently looking for new
-            opportunities. So if you have a project, feel free to contact me. I am highly experienced with both Frontend
-            and Backend Web Development.</p>
+      <h2 class="about-me-title">About Me</h2>
+      <p class="about-me-text">
+        Talented Web Developer with 3+ years of experience. I'm currently
+        looking for new opportunities. So if you have a project, feel free to
+        contact me. I am highly experienced with both Frontend and Backend Web
+        Development.
+      </p>
     </div>
     <div id="showcase" class="showcase-section">
-        <h2 class="showcase-title">Projects</h2>
-        <div class="projects-container">
-            <div class="project-container">
-                <h3 class="project-title">Phaser 3 Game</h3>
-                <div class="project-content-container">
+      <h2 class="showcase-title">Projects</h2>
+      <div class="projects-container">
+        <div class="project-container">
+          <h3 class="project-title">Phaser 3 Game</h3>
+          <div class="project-content-container">
+            <a target="_blank" href="https://clever-colden-aa2cd5.netlify.app/"
+              ><img
+                class="project-img"
+                src="assets/Space-Dodger.png"
+                alt="project image"
+            /></a>
 
-                    <a target="_blank" href="https://clever-colden-aa2cd5.netlify.app/"><img class="project-img"
-                            src="assets/Space-Dodger.png" alt="project image"></a>
-
-                    <div class="project-description-container">
-                        <div class="project-technologies">
-                            <p class="project-technology">HTML</p>
-                            <p class="project-technology">SCSS</p>
-                            <p class="project-technology">JavaScript</p>
-                            <p class="project-technology">Phaser 3</p>
-                            <p class="project-technology">Webpack</p>
-                            <p class="project-technology">Firebase</p>
-                        </div>
-                        <p class="project-description">This is a game built in Javascript. The objective of the game is
-                            to dodge the asteroids and collect the stars. The game was built using the Phaser 3 game
-                            framework.</p>
-                        <div class="project-links">
-                            <a class="website-link" target="_blank"
-                                href="https://clever-colden-aa2cd5.netlify.app/">Website</a>
-                            <a class="github-link" target="_blank"
-                                href="https://github.com/jacobrees/Phaser-3-Game">Code/Docs</a>
-                        </div>
-                    </div>
-
-                </div>
+            <div class="project-description-container">
+              <div class="project-technologies">
+                <p class="project-technology">HTML</p>
+                <p class="project-technology">SCSS</p>
+                <p class="project-technology">JavaScript</p>
+                <p class="project-technology">Phaser 3</p>
+                <p class="project-technology">Webpack</p>
+                <p class="project-technology">Firebase</p>
+              </div>
+              <p class="project-description">
+                This is a game built in Javascript. The objective of the game is
+                to dodge the asteroids and collect the stars. The game was built
+                using the Phaser 3 game framework.
+              </p>
+              <div class="project-links">
+                <a
+                  class="website-link"
+                  target="_blank"
+                  href="https://clever-colden-aa2cd5.netlify.app/"
+                  >Website</a
+                >
+                <a
+                  class="github-link"
+                  target="_blank"
+                  href="https://github.com/jacobrees/Phaser-3-Game"
+                  >Code/Docs</a
+                >
+              </div>
             </div>
-            <div class="project-container">
-                <h3 class="project-title">To Do List</h3>
-                <div class="project-content-container-invert">
-
-                    <a target="_blank" href="https://festive-curran-727aff.netlify.app/"><img class="project-img"
-                            src="assets/todo.png" alt="project image"></a>
-
-                    <div class="project-description-container">
-                        <div class="project-technologies">
-                            <p class="project-technology">HTML</p>
-                            <p class="project-technology">SCSS</p>
-                            <p class="project-technology">JavaScript</p>
-                            <p class="project-technology">Webpack</p>
-                            <p class="project-technology">Isotope</p>
-                        </div>
-                        <p class="project-description">This is a to-do list built in Javascript. The main objective of
-                            the app is to sort your 'todos' in an extremely easy to use way. This app also features a
-                            lot of animations.</p>
-                        <div class="project-links">
-                            <a class="website-link" target="_blank"
-                                href="https://festive-curran-727aff.netlify.app/">Website</a>
-                            <a class="github-link" target="_blank"
-                                href="https://github.com/jacobrees/To-Do-List">Code/Docs</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="project-container">
-                <h3 class="project-title">Tic Tac Toe</h3>
-                <div class="project-content-container">
-
-                    <a target="_blank" href="https://laughing-clarke-dd842a.netlify.app/"><img class="project-img"
-                            src="assets/TicTacToe.png" alt="project image"></a>
-                    <div class="project-description-container">
-                        <div class="project-technologies">
-                            <p class="project-technology">HTML</p>
-                            <p class="project-technology">SCSS</p>
-                            <p class="project-technology">JavaScript</p>
-                        </div>
-                        <p class="project-description">This project is a basic game of Tic Tac Toe. The goal of the
-                            project was to build this using Javascript. This game also features an AI component that was
-                            coded from scratch.</p>
-                        <div class="project-links">
-                            <a class="website-link" target="_blank"
-                                href="https://laughing-clarke-dd842a.netlify.app/">Website</a>
-                            <a class="github-link" target="_blank"
-                                href="https://github.com/jacobrees/Tic-Tac-Toe">Code/Docs</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="project-container">
+          <h3 class="project-title">To Do List</h3>
+          <div class="project-content-container-invert">
+            <a target="_blank" href="https://festive-curran-727aff.netlify.app/"
+              ><img
+                class="project-img"
+                src="assets/todo.png"
+                alt="project image"
+            /></a>
+
+            <div class="project-description-container">
+              <div class="project-technologies">
+                <p class="project-technology">HTML</p>
+                <p class="project-technology">SCSS</p>
+                <p class="project-technology">JavaScript</p>
+                <p class="project-technology">Webpack</p>
+                <p class="project-technology">Isotope</p>
+              </div>
+              <p class="project-description">
+                This is a to-do list built in Javascript. The main objective of
+                the app is to sort your 'todos' in an extremely easy to use way.
+                This app also features a lot of animations.
+              </p>
+              <div class="project-links">
+                <a
+                  class="website-link"
+                  target="_blank"
+                  href="https://festive-curran-727aff.netlify.app/"
+                  >Website</a
+                >
+                <a
+                  class="github-link"
+                  target="_blank"
+                  href="https://github.com/jacobrees/To-Do-List"
+                  >Code/Docs</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-container">
+          <h3 class="project-title">Tic Tac Toe</h3>
+          <div class="project-content-container">
+            <a
+              target="_blank"
+              href="https://laughing-clarke-dd842a.netlify.app/"
+              ><img
+                class="project-img"
+                src="assets/TicTacToe.png"
+                alt="project image"
+            /></a>
+            <div class="project-description-container">
+              <div class="project-technologies">
+                <p class="project-technology">HTML</p>
+                <p class="project-technology">SCSS</p>
+                <p class="project-technology">JavaScript</p>
+              </div>
+              <p class="project-description">
+                This project is a basic game of Tic Tac Toe. The goal of the
+                project was to build this using Javascript. This game also
+                features an AI component that was coded from scratch.
+              </p>
+              <div class="project-links">
+                <a
+                  class="website-link"
+                  target="_blank"
+                  href="https://laughing-clarke-dd842a.netlify.app/"
+                  >Website</a
+                >
+                <a
+                  class="github-link"
+                  target="_blank"
+                  href="https://github.com/jacobrees/Tic-Tac-Toe"
+                  >Code/Docs</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="get-in-touch-section">
-        <h2 class="get-in-touch-title">Get In Touch</h2>
-        <a href="https://www.linkedin.com/in/jacob-rees/" class="get-in-touch-footer-link">LinkedIn</a>
+      <h2 class="get-in-touch-title">Get In Touch</h2>
+      <a
+        href="https://www.linkedin.com/in/jacob-rees/"
+        class="get-in-touch-footer-link"
+        >LinkedIn</a
+      >
     </div>
+    <script src="particles.js"></script>
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
