@@ -20,6 +20,8 @@
   },
   "ignorePatterns": [
     "dist/",
-    "build/"
+    "build/",
+    "particles.js",
+    "assets/particlesjs-config.json"
   ]
 }
