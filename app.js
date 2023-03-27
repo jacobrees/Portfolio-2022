@@ -31,3 +31,7 @@ navLinks.forEach((navLink) => {
     });
   });
 });
+
+particlesJS.load('particles-js', 'assets/particlesjs-config.json', () => { // eslint-disable-line
+
+});
