@@ -10,6 +10,7 @@ menu.addEventListener("click", () => {
 
 mobileNavLinks.forEach((navLink) => {
   navLink.addEventListener("click", () => {
+    menu.classList.toggle('open');
     mobileNav.classList.toggle("show");
   });
 });
