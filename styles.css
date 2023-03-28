@@ -331,14 +331,13 @@ html {
     margin: 50px auto;
     transform: rotate(0deg);
     transition: 0.5s ease-in-out;
-    cursor: pointer;
   }
   .hamburger-menu span {
     display: block;
     position: absolute;
     height: 9px;
     width: 100%;
-    background: #000000;
+    background: #000;
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -346,7 +345,7 @@ html {
     transition: 0.25s ease-in-out;
   }
   .hamburger-menu span:nth-child(1) {
-    top: 0px;
+    top: 0;
   }
   .hamburger-menu span:nth-child(2) {
     top: 18px;

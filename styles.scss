@@ -339,7 +339,6 @@ html {
     margin: 50px auto;
     transform: rotate(0deg);
     transition: 0.5s ease-in-out;
-    cursor: pointer;
   }
 
   .hamburger-menu span {
@@ -347,7 +346,7 @@ html {
     position: absolute;
     height: 9px;
     width: 100%;
-    background: #000000;
+    background: #000;
     border-radius: 9px;
     opacity: 1;
     left: 0;
@@ -356,27 +355,27 @@ html {
   }
 
   .hamburger-menu span:nth-child(1) {
-    top: 0px;
+    top: 0;
   }
-  
+
   .hamburger-menu span:nth-child(2) {
     top: 18px;
   }
-  
+
   .hamburger-menu span:nth-child(3) {
     top: 36px;
   }
-  
+
   .hamburger-menu.open span:nth-child(1) {
     top: 18px;
     transform: rotate(135deg);
   }
-  
+
   .hamburger-menu.open span:nth-child(2) {
     opacity: 0;
     left: -60px;
   }
-  
+
   .hamburger-menu.open span:nth-child(3) {
     top: 18px;
     transform: rotate(-135deg);
