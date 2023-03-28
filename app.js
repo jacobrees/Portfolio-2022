@@ -4,16 +4,14 @@ const mobileNav = document.querySelector('.mobile-navbar');
 const mobileNavLinks = document.querySelectorAll('.mobile-nav-links');
 
 menu.addEventListener('click', () => {
-  if (mobileNav.style.visibility === 'visible') {
-    mobileNav.style.visibility = 'hidden';
-  } else {
-    mobileNav.style.visibility = 'visible';
-  }
+  menu.classList.toggle('open');
+  mobileNav.classList.toggle('show');
 });
 
 mobileNavLinks.forEach((navLink) => {
   navLink.addEventListener('click', () => {
-    mobileNav.style.visibility = 'hidden';
+    menu.classList.toggle('open');
+    mobileNav.classList.toggle('show');
   });
 });
 
@@ -32,6 +30,6 @@ navLinks.forEach((navLink) => {
   });
 });
 
-particlesJS.load('particles-js', 'assets/particlesjs-config.json', () => { // eslint-disable-line
+particlesJS.load('particles-js', 'assets/particlesjs-config.json', () => {// eslint-disable-line
 
 });
