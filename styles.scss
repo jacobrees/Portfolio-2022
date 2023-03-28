@@ -10,6 +10,36 @@ html {
   scroll-behavior: smooth;
 }
 
+.loading-screen {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loading-title {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.char {
+  transform: translateY(115px);
+  transition: transform 0.5s;
+}
+
 .navbar {
   width: 100%;
   position: fixed;
@@ -322,6 +352,10 @@ html {
 
 /* Small devices */
 @media only screen and (max-width: 767.98px) {
+  .loading-title {
+    font-size: 45px;
+  }
+
   .navbar-container {
     padding: 0 50px;
   }
