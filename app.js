@@ -2,6 +2,9 @@ const menu = document.querySelector('.hamburger-menu');
 const mobileNav = document.querySelector('.mobile-navbar');
 const mobileNavLinks = document.querySelectorAll('.mobile-nav-links');
 const loader = document.querySelector('.loading-screen');
+const loadingText = document.querySelector('.loading-title');
+
+loadingText.style.visibility = 'visible';
 
 const myText = new SplitType('#loading-text');// eslint-disable-line
 
