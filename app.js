@@ -15,7 +15,7 @@ gsap.to('.char', {// eslint-disable-line
 window.addEventListener('load', () => {
   setTimeout(() => {
     loader.classList.add('loader-hidden');
-  },1200);
+  }, 1200);
 });
 
 menu.addEventListener('click', () => {
