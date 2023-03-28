@@ -4,13 +4,13 @@ const mobileNav = document.querySelector(".mobile-navbar");
 const mobileNavLinks = document.querySelectorAll(".mobile-nav-links");
 
 menu.addEventListener("click", () => {
-  menu.classList.toggle('open');
+  menu.classList.toggle("open");
   mobileNav.classList.toggle("show");
 });
 
 mobileNavLinks.forEach((navLink) => {
   navLink.addEventListener("click", () => {
-    menu.classList.toggle('open');
+    menu.classList.toggle("open");
     mobileNav.classList.toggle("show");
   });
 });
