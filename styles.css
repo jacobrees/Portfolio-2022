@@ -319,6 +319,9 @@ html {
   .navbar-container {
     padding: 0 50px;
   }
+  .title-text {
+    font-size: 60px;
+  }
   .hamburger-menu {
     display: block;
     width: 60px;
